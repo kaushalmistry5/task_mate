@@ -102,7 +102,6 @@ class _HomeScreenState extends State<HomeScreen> {
                              onTap: (){
                                Navigator.of(context).push(MaterialPageRoute(builder: (context)=> EditScreen(taskId: value.myTaskList[index]["taskId"], title: value.myTaskList[index]["title"] ?? '', taskDes: value.myTaskList[index]["task_des"] ?? '', date: value.myTaskList[index]["date"] ?? '',)));
                              },
-
                              child: Container(
                                height: 50,
                                width: double.infinity,
